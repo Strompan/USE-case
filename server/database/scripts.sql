@@ -6,13 +6,13 @@ CREATE TABLE IF NOT EXISTS events(
 
 CREATE TABLE IF NOT EXISTS departments(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  department_name VARCHAR(100) NOT NULL
+  department_name VARCHAR(100) NOT NULL,
 );
 
 CREATE TABLE IF NOT EXISTS aviaries(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   enclosure_number INTEGER,
-  enclosure_area INTEGER NOT NULL
+  enclosure_area INTEGER NOT NULL,
 );
 
 CREATE TABLE IF NOT EXISTS visitors(
